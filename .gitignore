@@ -1,0 +1,24 @@
+# Configuration files with sensitive data
+config.json
+
+# Virtual environment
+venv/
+env/
+*.pyc
+__pycache__/
+
+# State and log files
+*.json
+!config.example.json
+*.log
+*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

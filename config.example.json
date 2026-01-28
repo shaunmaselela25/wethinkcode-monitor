@@ -1,0 +1,23 @@
+{
+  "url": "https://www.apply.wethinkcode.co.za/requirements",
+  "check_interval_hours": 6,
+  "alert_methods": {
+    "email": false,
+    "console": true,
+    "file": true
+  },
+  "email_config": {
+    "smtp_server": "smtp.mail.me.com",
+    "smtp_port": 587,
+    "sender_email": "your_email@icloud.com",
+    "sender_password": "YOUR_APP_SPECIFIC_PASSWORD",
+    "recipient_email": "your_email@icloud.com"
+  },
+  "keywords": [
+    "apply",
+    "application",
+    "open",
+    "apply now",
+    "register"
+  ]
+}
