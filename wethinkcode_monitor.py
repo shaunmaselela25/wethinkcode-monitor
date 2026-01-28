@@ -39,7 +39,7 @@ class WeThinkCodeMonitor:
         else:
             default_config = {
                 "url": "https://www.apply.wethinkcode.co.za/requirements",
-                "check_interval_hours": 6,
+                "check_interval_hours": 12,
                 "alert_methods" : {
                     "email": False,
                     "console": True,
@@ -48,9 +48,9 @@ class WeThinkCodeMonitor:
                 "email_config": {
                     "smtp_server": "smtp.gmail.com",
                     "smtp_port": 587,
-                    "sender_email": "your_email_address",
-                    "sender_password": "your_email_password",
-                    "recipient_email": "your_email_address"
+                    "sender_email": "YOUR_EMAIL@ICLOUD.COM",
+                    "sender_password": "YOUR_APP_SPECIFIC_PASSWORD",
+                    "recipient_email": "YOUR_EMAIL@ICLOUD.COM"
                 },
 
                 "keywords": [
