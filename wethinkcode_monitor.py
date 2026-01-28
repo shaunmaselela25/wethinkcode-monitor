@@ -30,7 +30,7 @@ class WeThinkCodeMonitor:
     def __init__(self, config_path=CONFIG_FILE):
         self.config = self.load_config(config_path)
         self.state = self.load_state()
-        self.url = self.config.get('url', 'https://www.wethinkcode.co.za/apply/') 
+        self.url = self.config.get('url', 'https://www.apply.wethinkcode.co.za/requirements') 
 
     def load_config(self, config_path):
         if config_path.exists():
@@ -38,7 +38,7 @@ class WeThinkCodeMonitor:
                 return json.load(f)
         else:
             default_config = {
-                "url": "https://www.wethinkcode.co.za/apply/",
+                "url": "https://www.apply.wethinkcode.co.za/requirements",
                 "check_interval_hours": 6,
                 "alert_methods" : {
                     "email": False,
@@ -48,9 +48,9 @@ class WeThinkCodeMonitor:
                 "email_config": {
                     "smtp_server": "smtp.gmail.com",
                     "smtp_port": 587,
-                    "sender_email": "shaunmaselela25@icloud.com",
-                    "sender_password": "Cakdotnabje5",
-                    "recipient_email": "shaunmaselela25@icloud.com"
+                    "sender_email": "your_email_address",
+                    "sender_password": "your_email_password",
+                    "recipient_email": "your_email_address"
                 },
 
                 "keywords": [
