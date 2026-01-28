@@ -1,6 +1,6 @@
 {
   "url": "https://www.apply.wethinkcode.co.za/requirements",
-  "check_interval_hours": 6,
+  "check_interval_hours": 12,
   "alert_methods": {
     "email": false,
     "console": true,
